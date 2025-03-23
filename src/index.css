@@ -5,9 +5,87 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.ant-layout {
+  background: #f9f9f9;
+}
+
+.ant-tabs-tab {
+  font-size: 16px;
+}
+
+.ant-card {
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ant-card p {
+  margin: 10px 0;
+}
+
+.ant-card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ant-typography {
+  margin-bottom: 16px;
+  color: #595959;
+}
+
+.ant-divider {
+  margin: 24px 0;
+}
+
+button.ant-btn {
+  width: 100px;
+  text-align: center;
+}
+
+.ant-layout-header {
+  background-color: #001529;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.ant-menu-dark {
+  background-color: transparent;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: #1890ff;
+}
+
+.ant-layout-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.ant-layout-footer {
+  background-color: #001529;
+  color: #fff;
+  text-align: center;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  font-weight: bold;
+}
+
+.ant-btn-primary:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
 }
